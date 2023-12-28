@@ -1,0 +1,49 @@
+@import "reset.css";
+@import "grid.css";
+@import "fonts.css";
+
+:root {
+    --pinkMolayem: #ff69b4;
+    --lighter-pink: #FFB6C1;
+    /* yoth product */
+    /* OK */
+    --pink: #FFC0CB;
+    /*  for woman or family products */
+    --pinkyPinki: #ff69b4;
+    --banfsheAhangi: #8a2be2;
+    --white: #FFFFFF;
+    /*  تمیزی و طرح های مینیمال و ساده */
+    /* OK */
+    --blue: #2196F3;
+    /*  حس ارامش و اعتماد برای انتقال اطلاعات دقیق کاربران */
+    /* OK */
+    --blue1: #007bff;
+    --green: #4CAF50;
+    /*   ارامش و شادی برای دارو */
+    --orange: #FF9800;
+    /* َشادی و حس پویایی */
+    --brown: #795548;
+    /* محصولات لوکس  */
+    --brown1: #8B4513;
+    --gray: #9E9E9E;
+    /*  حس سرد و محترمانه برای خدمات حرفه ایی */
+}
+
+* {
+    font-size: 10px;
+}
+
+/* ==============
+    Reset
+==================*/
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+/* ///////////////////////////////////////////////////////////////////////////////// */

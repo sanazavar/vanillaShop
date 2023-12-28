@@ -1,0 +1,139 @@
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="basket__wrapper">
+                    <div class="basket__img">
+                        <img src="images/3.jpg" alt="" class="basekt__photo" style="width: 150px ; height: 150px;">
+
+                    </div>
+                    <div class="basket__img__details">
+                        <p class="basket__descrip">محلول شسشتوی صورت-پوست خشک</p>
+                        <input type="number" name="" id="count" class="basekt__count" value="1" style="width: 35px;">
+                        <span class="basekt__price">145 </span>
+                        
+                    </div>
+             
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- 
+    <div class="container">
+        <h1>سبد خرید</h1>
+        <div class="product">
+          <img src="product1.jpg" alt="محصول ۱">
+          <h3>محصول ۱</h3>
+          <p>توضیحات محصول ۱</p>
+          <input type="number" value="1" min="1">
+          <button class="remove">حذف</button>
+        </div>
+        <div class="product">
+          <img src="product2.jpg" alt="محصول ۲">
+          <h3>محصول ۲</h3>
+          <p>توضیحات محصول ۲</p>
+          <input type="number" value="1" min="1">
+          <button class="remove">حذف</button>
+        </div>
+        <button class="checkout">تسویه حساب</button>
+      </div>
+     -->
+
+
+     <!DOCTYPE html>
+     <html dir="rtl">
+     <head>
+         <title>صفحه سبد خرید</title>
+         <!-- اضافه کردن فایل‌های CSS -->
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" href="styles.css/basket.css">
+     </head>
+     <body>
+         <!-- <header>
+             <nav>
+                 <ul>
+                     <li><a href="#">خانه</a></li>
+                     <li><a href="#">فروشگاه</a></li>
+                     <li class="active"><a href="#">سبد خرید</a></li>
+                     <li><a href="#">درباره ما</a></li>
+                 </ul>
+             </nav>
+         </header> -->
+     
+         <div class="container">
+             <h1>سبد خرید</h1>
+     
+             <table>
+                 <thead>
+                     <tr>
+                         <th>عکس</th>
+                         <th>نام محصول</th>
+                         <th>قیمت</th>
+                         <th>تعداد</th>
+                         <th>عملیات</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td><img src="images/4.jpg" alt="محصول ۱"></td>
+                         <td>محصول ۱</td>
+                         <td>۱۰۰,۰۰۰ تومان</td>
+                         <td><input type="number" value="1"></td>
+                         <td><button class="btn-remove">حذف</button></td>
+                     </tr>
+                     <tr>
+                         <td><img src="product2.jpg" alt="محصول ۲"></td>
+                         <td>محصول ۲</td>
+                         <td>۲۵۰,۰۰۰ تومان</td>
+                         <td><input type="number" value="2"></td>
+                         <td><button class="btn-remove">حذف</button></td>
+                     </tr>
+                     <!-- سایر ردیف‌ها -->
+                     <tr>
+                        <td>جمع کل:</td>
+                        <td>۵۲۵۰۰ تومان</td>
+                     </tr>
+                 </tbody>
+             </table>
+     
+             <div class="delivery-info">
+                 <h2>اطلاعات تحویل</h2>
+                 <form>
+                     <label for="address">آدرس:</label>
+                     <textarea id="address" rows="4"></textarea>
+     
+                     <label for="phone">تلفن:</label>
+                     <input type="text" id="phone">
+     
+                     <label for="payment-method">روش پرداخت:</label>
+                     <select id="payment-method">
+                         <option>کارت بانکی</option>
+                         <option>پی پال</option>
+                         <option>نقدی</option>
+                     </select>
+     
+                     <button type="submit">تایید خرید</button>
+                 </form>
+             </div>
+     
+             <div class="continue-shopping">
+                 <a href="#">ادامه خرید</a>
+             </div>
+         </div>
+     
+         <footer>
+             <p>تمامی حقوق محفوظ است. ۲۰۲۳</p>
+         </footer>
+     
+         <!-- اضافه کردن فایل‌های JavaScript -->
+         <script src="script.js"></script>
+     </body>
+     </html>
+     
+
+
+
+

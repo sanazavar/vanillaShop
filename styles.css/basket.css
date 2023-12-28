@@ -1,0 +1,177 @@
+@import "reset.css";
+@import "grid.css";
+@import "fonts.css";
+
+.basket__wrapper{
+display: flex;
+}
+.basekt__photo{
+
+}
+.basket__img__details{
+    display: flex;
+    align-items: center;
+
+}
+.basket__descrip{
+
+}
+.basekt__count{
+
+}
+.basekt__price{
+
+}/* //////////////////// */
+/* 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  h3, p {
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  .remove {
+    margin-left: auto;
+  }
+
+*/
+/* 
+////////////////////////////////////////////////////////////////////
+
+*/
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.img__basket{
+
+}
+.img__basket__details{
+
+}
+thead th {
+    background-color: #f0f0f0;
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+    /* max-height: ; */
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-remove {
+    padding: 5px 10px;
+    background-color: #ff6464;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delivery-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.delivery-info h2 {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form textarea, form input[type="text"], form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.continue-shopping a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+  
